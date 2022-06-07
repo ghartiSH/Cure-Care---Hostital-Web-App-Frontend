@@ -1,0 +1,56 @@
+@import url(../../Client-pages/home/home.component.scss);
+
+.body{
+    padding-top: 50px;
+}
+
+.right-button{
+  margin-left: 50px;
+}
+
+.table{
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+  .mat-column-date{
+    font-size: 18px;
+    height: 80px;
+  }
+  .mat-column-age{
+    font-size: 18px;
+    height: 80px;
+  }
+  .mat-column-treatment{
+    font-size: 18px;
+    height: 80px;
+  }
+
+.mat-column-name{
+    font-size: 18px;
+    height: 80px;
+  }
+  .mat-column-address{
+    font-size: 18px;
+    height: 80px;
+  }
+
+  button{
+    font-family: 'Poppins';
+    font-size: 18px;
+    height: 60px;
+    width: 150px;
+}
+
+@media screen and (max-width:400px) {
+  .right-button{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}

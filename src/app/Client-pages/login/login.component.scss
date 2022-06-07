@@ -1,0 +1,59 @@
+@import url(../home/home.component.scss);
+.body{
+    padding-top: 20px;
+}
+
+.container{
+    display: flex;
+}
+.form-box{
+    width: 50%;
+}
+.image-box{
+    margin-top: 0px;
+    width: 50%;
+
+    img{
+        height: 100%;
+    }
+}
+.form-card{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.input-field{
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: #197CF0;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding:10px 25px 10px 25px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:850px) {
+    
+    .container{
+        display: block;
+    }
+    .form-box{
+        width: 100%;
+    }
+    .image-box{
+        display: none;
+    }
+}

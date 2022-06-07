@@ -1,0 +1,75 @@
+@import url(../home/home.component.scss);
+
+.body{
+    padding-top: 80px;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+}
+
+.left-container{
+    margin-left: 0px;
+    width: 48%;
+}
+
+.right-container{
+    margin-right: 0px;
+    width: 48%;
+}
+
+.doc-card{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    border-radius: 20px;
+}
+img{
+    height: 200px;
+    border-radius: 200px;
+}
+.details{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color:#8F0404;
+    cursor: pointer;
+}
+a:hover{
+    color:  #197CF0;
+}
+.paginator{
+    margin-top: 50px;
+    mat-paginator{
+        border-radius: 20px;
+        font-size: 18px;
+        font-family: 'Poppins';
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .doc-card{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        display: block;
+    }
+
+    .left-container{
+        width: 100%;
+    }
+    .right-container{
+        width: 100%;
+    }
+    .doc-card{
+        margin-bottom: 20px;
+    }
+}

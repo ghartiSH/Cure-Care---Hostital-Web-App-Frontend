@@ -1,0 +1,137 @@
+*{
+    margin: auto;
+}
+.main{
+    width: 100%;
+    background-color: #E3EAF1;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.background{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: left center;
+}
+.left{
+    margin-left: 0px;
+}
+.right{
+    margin-right: 0px;
+}
+.text{
+    font-family: 'Poppins';
+}
+.h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.body{
+    width: 80%;
+}
+.home-box{
+    margin-top: 100px;
+}
+.about-section{
+    margin-top: 50px;
+    display: flex;
+}
+.about-text{
+    width: 50%;
+}
+.about-image{
+    margin-left: 20px;
+    width: 50%;
+}
+.department-text{
+    margin-top: 0px;
+    width: 30%;
+}
+.card{
+    width: 45%;
+}
+.people{
+    display: flex;
+}
+
+.news-card{
+    width: 32%;
+}
+
+.grid-image{
+    height: 100%;
+    width: 100%;
+} 
+.gallery{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-box{
+    width: 33%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:1600px) {
+    
+}
+
+@media screen and (max-width:1350px) {
+    .body{
+        width: 95%;
+    }
+    
+}
+
+@media screen and (max-width: 895px) {
+
+   .about-section{
+       display: block;
+   }
+   .about-text{
+       width: 100%;
+   }
+   .about-image{
+       width: 100%;
+       margin-left: 0px;
+       margin-top: 20px;
+   }
+   .department-text{
+       width: 100%;
+   }
+   .card{
+       width: 100%;
+       margin-bottom: 20px;
+   }
+   .news-card{
+       width: 100%;
+       margin-bottom: 20px;
+   }
+   .image-box{
+       width: 50%;
+   }
+}
+
+@media screen  and (max-width:580px){
+    .image-box{
+        width: 100%;
+    }
+    
+}
+@media screen  and (max-width:400px){
+    .people{
+        display: block;
+    }
+    
+}

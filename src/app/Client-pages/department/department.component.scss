@@ -1,0 +1,29 @@
+@import url(../home/home.component.scss);
+
+.body{
+    padding-top: 80px;
+}
+
+.dep-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dep-card{
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+img{
+    height: 100px;
+    margin-bottom: 20px;
+    
+}
+
+
+@media screen and (max-width:850px) {
+    .dep-card{
+        width: 100%;
+    }
+}

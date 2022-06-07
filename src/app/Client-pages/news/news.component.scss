@@ -1,0 +1,50 @@
+@import url(../home/home.component.scss);
+
+.body{
+    padding-top: 80px;
+}
+
+.newss-card{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 0px;
+}
+
+.image-box{
+    width: 800px;
+    height: 200px;
+}
+
+.text-box{
+    margin: 0px;
+    margin-left: 10px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color:#8F0404;
+    cursor: pointer;
+}
+a:hover{
+    color:  #197CF0;
+}
+
+
+
+
+@media screen and (max-width:850px) {
+   .newss-card{
+       display: block;
+       padding: 0px;
+   }
+   .image-box{
+       width: 100%;
+   }
+}

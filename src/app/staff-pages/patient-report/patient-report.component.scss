@@ -1,0 +1,32 @@
+@import url(../../Client-pages/home/home.component.scss);
+
+
+.body{
+    padding-top: 50px;
+}
+
+.bill{
+    margin-top: 50px;
+}
+
+.table{
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+}
+th, td{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    
+}
+button{
+    padding: 10px 20px;
+    background-color: lightgray;
+    font-family: 'Poppins';
+    font-weight: 18px;
+}

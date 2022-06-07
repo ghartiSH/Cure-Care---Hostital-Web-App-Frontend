@@ -1,0 +1,18 @@
+@import url(../home/home.component.scss);
+
+.body{
+    padding-top: 80px;
+}
+.staff{
+    margin-top: 80px;
+}
+
+.grid{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.grid-item{
+    width: 100%;
+}

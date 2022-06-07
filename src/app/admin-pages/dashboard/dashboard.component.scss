@@ -1,0 +1,75 @@
+@import url(../../Client-pages/home/home.component.scss);
+
+.body{
+    padding-top: 50px;
+}
+
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    
+    background-color: #197CF0;
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    width: 20%;
+
+    i{
+        font-size: 80px;
+    }
+}
+
+.graph{
+    margin-top: 50px;
+}
+button{
+    margin-left: 50px;
+    height: 50px;
+    font-family: 'Poppins';
+    width: 200px;
+    background-color: #197CF0;
+    color: white;
+}
+
+.table{
+    overflow: scroll;
+}
+table{
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+.mat-column-name{
+    font-size: 18px;
+    height: 80px;
+  }
+  .mat-column-address{
+    font-size: 18px;
+    height: 80px;
+  }
+  .mat-column-email{
+    font-size: 18px;
+    height: 80px;
+  }
+  .mat-column-message{
+    font-size: 18px;
+    height: 80px;
+  }
+
+  @media screen and(max-width:1200px) {
+      .container{
+          width: 45%;
+          margin-bottom: 20px;
+      }
+  }
+  @media screen and(max-width:850px) {
+    .container{
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,30 @@
+@import url(../patient-payment-details/patient-payment-details.component.scss);
+
+.icon{
+    display: flex;
+
+    i{
+        margin: auto;
+    }
+}
+
+.logo{
+    margin-top: 50px;
+}
+
+@media screen and (max-width:850px) {
+    .logos{
+        margin-top: 30px;
+    }
+    
+  }
+  @media screen and (max-width:650px) {
+    
+  }
+
+@media screen and (max-width:500px) {
+    
+    .icon{
+        flex-direction: column;
+    }
+  }

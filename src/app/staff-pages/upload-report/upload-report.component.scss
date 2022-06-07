@@ -1,0 +1,24 @@
+@import url(../../Client-pages/home/home.component.scss);
+
+
+.body{
+    padding-top: 50px;
+}
+
+.report{
+    padding: 50px;
+}
+input{
+    height: 50px;
+    margin: 20px 0px 20px 0px;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+button{
+    background-color: #197CF0;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding: 10px 20px;
+}

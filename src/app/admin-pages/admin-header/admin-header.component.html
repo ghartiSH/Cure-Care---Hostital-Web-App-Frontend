@@ -1,0 +1,69 @@
+<div class="main">
+    <div class="small-nav">
+        <div class="small-nav-content">
+            <section style="display: flex; float: left; padding-top: 8px;">
+                <p><i class="bi bi-house-door-fill"></i>Gyaneshowr, Kathmandu</p>
+                <p> <i class="bi bi-telephone-fill"></i>98178952554</p>
+                <p><i class="bi bi-envelope-fill"></i>asdf@gmail.com</p>
+            </section>
+            <section class="searchbar">
+                <input type="text"placeholder="Search...">
+                <button mat-button style="margin-left: -60px; color:black;"><i class="bi bi-search"></i></button>
+            </section>
+        </div>
+        
+    </div>
+    <div class="navbar">
+        <section class="logo">
+            <img src="assets/images/logo.png" alt="logo" height="100%">
+        </section>
+        <section class="links">
+            <ul>
+                <li> <a routerLink="/dashboard">Dashboard</a> </li>
+                <li> <a routerLink="/admin-appointment">Appointment</a> </li>
+
+                <li> <button [matMenuTriggerFor]="docMenu" class="about-menu">Doctors</button>
+                    <mat-menu #docMenu="matMenu">
+                      <a routerLink="/doctor"><button mat-menu-item class="about-menu">All Doctors</button></a>
+                      <mat-divider></mat-divider>
+                      <a routerLink="/add-doctor"><button mat-menu-item class="about-menu">Add Doctors</button></a>
+                      <mat-divider></mat-divider>
+                      <a ><button mat-menu-item class="about-menu">Present Doctors</button></a>
+                      <mat-divider></mat-divider>
+                      <a><button mat-menu-item class="about-menu">Past Doctors</button></a>
+                    </mat-menu>
+                </li>
+
+                <li> <button [matMenuTriggerFor]="patMenu" class="about-menu">Patients</button>
+                    <mat-menu #patMenu="matMenu">
+                      <a routerLink="/patient"><button mat-menu-item class="about-menu">All Patients</button></a>
+                      <mat-divider></mat-divider>
+                      <a routerLink="/add-patient"><button mat-menu-item class="about-menu">Add Patients</button></a>
+                    </mat-menu>
+                </li>
+
+                <li> <button [matMenuTriggerFor]="depMenu" class="about-menu">Departments</button>
+                    <mat-menu #depMenu="matMenu">
+                      <a routerLink="/department"><button mat-menu-item class="about-menu">All Departments</button></a>
+                      <mat-divider></mat-divider>
+                      <a routerLink="/add-department"><button mat-menu-item class="about-menu">Add Departments</button></a>
+                    </mat-menu>
+                </li>
+
+                <li> <button [matMenuTriggerFor]="payMenu" class="about-menu">Payments</button>
+                    <mat-menu #payMenu="matMenu">
+                      <a routerLink="/payment"><button mat-menu-item class="about-menu">Patients</button></a>
+                      <mat-divider></mat-divider>
+                      <a routerLink="/staff-payment"><button mat-menu-item class="about-menu">Hospital Staffs</button></a>
+                    </mat-menu>
+                </li>
+
+                
+            </ul>
+            <button mat-button style="height: 40px;margin-top: 20px;" class="resp-button"><mat-icon >menu</mat-icon></button>
+        </section>
+            
+
+    </div>
+</div>
+

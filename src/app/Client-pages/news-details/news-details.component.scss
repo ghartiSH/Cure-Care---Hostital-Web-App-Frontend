@@ -1,0 +1,95 @@
+@import url(../home/home.component.scss);
+
+.body{
+    padding-top: 80px;
+}
+.top{
+    display: flex;
+}
+
+.image{
+    width: 50%;
+    padding: 10px;
+}
+.text{
+    width: 50%;
+    padding: 10px;
+}
+.socials{
+    margin-top: 50px;
+    display: flex;
+}
+i{
+    margin-left: 15px;
+}
+.comment{
+    display: flex;
+    margin-top: 30px;
+}
+.input{
+    width: 80%;
+}
+
+input{
+    width: 49%;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+textarea{
+    font-size: 18px;
+    font-family: 'Poppins';
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.right-input{
+    float: right;
+}
+.other{
+    margin-top: 50px;
+}
+
+.news-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.more-news{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 850px) {
+    .top{
+        display: block;
+    }
+
+    .image{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+    .socials{
+        display: block;
+    }
+    .comment{
+        display: block;
+    }
+    .input{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .more-news{
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+@import url(../../Client-pages/home/home.component.scss);
+.body{
+    padding-top: 50px;
+}
+
+.info{
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+
+    table{
+        width: 100%;
+        font-family: 'Poppins';
+        font-size: 18px;
+        font-weight: 600;
+        td{
+            padding: 20px;
+            text-align: left;
+        }
+    }
+}
+
+.bill{
+    margin-top: 50px;
+    height: 600px;
+}
+
+.bill-table{
+    border: solid 1px;
+}
+
+.input{
+    text-align: right;
+
+    input{
+        height: 50px;
+        width: 400px;
+        outline: none;
+        font-family: "Poppins";
+        font-size: 18px;
+        margin-left: 10px;
+    }
+}
+
+.buttons{
+    margin-top: 20px;
+    button{
+        height: 50px;
+        padding: 10px 50px;
+        font-family: "Poppins";
+        font-size: 18px;
+    }
+}

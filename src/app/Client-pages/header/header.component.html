@@ -1,0 +1,46 @@
+<div class="main">
+    <div class="small-nav">
+        <div class="small-nav-content">
+            <section style="display: flex; float: left; padding-top: 12px;">
+                <p><i class="bi bi-house-door-fill"></i>Gyaneshowr, Kathmandu</p>
+                <p> <i class="bi bi-telephone-fill"></i>98178952554</p>
+                <p><i class="bi bi-envelope-fill"></i>asdf@gmail.com</p>
+            </section>
+            <section class="searchbar">
+                <input type="text"placeholder="Search...">
+                <button mat-button style="margin-left: -60px; color:black;"><i class="bi bi-search"></i></button>
+            </section>
+        </div>
+        
+    </div>
+    <div class="navbar">
+        <section class="logo">
+            <img src="assets/images/logo.png" alt="logo" height="100%">
+        </section>
+        <section class="links">
+            <ul>
+                <li> <a routerLink="/home">Home</a> </li>
+                <li> <button [matMenuTriggerFor]="menu" class="about-menu">About Us</button>
+                    <mat-menu #menu="matMenu">
+                      <a routerLink="/about-hospital"><button mat-menu-item class="about-menu">About Hospital</button></a>
+                      <mat-divider></mat-divider>
+                      <a routerLink="/department"><button mat-menu-item class="about-menu">Departments</button></a>
+                      <mat-divider></mat-divider>
+                      <a routerLink="/doctor"><button mat-menu-item class="about-menu">Staffs</button></a>
+                    </mat-menu>
+                </li>
+                <li> <a routerLink="/services">Sevices</a> </li>
+                <li> <a routerLink="/appointment">Appointment</a></li>
+                <li> <a routerLink="/news">News & Events</a></li>  
+                <li> <a routerLink="career">Career</a> </li>
+                <li> <a routerLink="/contact">Contact</a></li>
+            </ul>
+            <button mat-button style="height: 40px;margin-top: 20px;" class="resp-button"><mat-icon >menu</mat-icon></button>
+            <a routerLink="/login">
+                <button mat-button style="background-color: #8F0404; color: white; margin-top: 8px; font-family: 'Poppins';font-size: 18px; padding:5px 10px 5px 10px;" class="login-button">Login / Signup</button>
+            </a>
+        </section>
+            
+
+    </div>
+</div>
